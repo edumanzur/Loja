@@ -187,3 +187,157 @@ footer {
 #preco {
     margin-left: 120px;
 }
+
+.botao_celular {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+@media screen and (max-width: 430px) {
+    .venda {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 15px;
+        font-family: Comic Sans MS;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1.5px solid #aa9595;
+        margin: 30px 20px 0px 20px;
+        padding: 25px;
+        border-radius: 12%;
+    }
+
+    .produtos a{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .produtos img {
+        height: 150px;
+        width: auto;
+    }
+
+    footer {
+        display: flex;
+        font-family: Comic Sans MS;
+        justify-content: center;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+    }
+
+    #indice {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 50px 50px;
+        margin-top: 50px;
+    }
+
+    header {
+        display: flex;
+        justify-content: row;
+        box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.1);
+        width: 100%;
+    }
+
+    #botoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header a {
+        text-decoration: none; 
+        color: #000000;
+        margin: 32px 5px;
+        font-family: Comic Sans MS;
+    }
+
+    #marca {
+        display: none;
+    }
+
+    #botoes {
+        display: none;
+    }
+
+    .botao_celular {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .botao_celular img {
+        height: 65px;
+    }
+
+    #carrinho {
+        margin: 20px;
+    }
+
+    #dentro {
+        border: none;
+        display: flex;
+        flex-direction: column ;
+        font-family: Comic Sans MS;
+        margin: 15px;
+        padding: 5px;
+    }
+
+    #dentro img {
+        height: 380px;
+        width: 400px;
+    }
+
+    #coluna {
+        display: flex;
+        flex-direction: column;
+        font-family: Comic Sans MS;
+        margin: 10px;
+        padding: 5px;
+        border-radius: 20px;
+    }
+
+    #carro {
+        display: none;
+    }
+
+    .excluir {
+        margin-top: 45px;
+        color: #f72e2e;
+        width: 60px;
+        border: none;
+        margin-left: 200px;
+    }
+    
+    #preco {
+        margin-left: 100px;
+        margin: 20px;
+    }
+
+    #coluna img {
+        height: 300px;
+        width: 300px;
+    }
+
+    #name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
